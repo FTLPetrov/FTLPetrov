@@ -1,0 +1,63 @@
+# === Node and dependencies ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# === Build output ===
+dist/
+build/
+
+# === Environment files ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Editor / IDE configs ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Cache / Temp ===
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.log
+*.tmp
+*.bak
+*.local
+
+# === Testing ===
+coverage/
+*.lcov
+
+# === Optional lockfiles ===
+# Keep only one of these if you use a single package manager
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# === Vite specific ===
+vite.config.js.timestamp*
+vite.config.mjs.timestamp*
+
+# === Local assets (optional, only if they’re auto-generated) ===
+# Uncomment if you generate assets dynamically during build
+# public/assets/
+# src/assets/generated/
+
+# === Misc ===
+*.env.backup
